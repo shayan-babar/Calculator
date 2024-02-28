@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(112, 112, 144, 1) 35%, rgba(126, 133, 134, 1) 100%);
+}
+
+h1 {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.container {
+    /* background-color: rgb(255, 255, 255); */
+    background-color: #000000;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px 5px grey;
+}
+
+.calculator {
+    border: 1px solid #717377;
+    background-color: #717377;
+    padding: 20px;
+    height: 520px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+input {
+    width: 270px;
+    border: 2px solid white;
+    border-radius: 18px;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+button {
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    /* background: transparent; */
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.button:hover {
+    background-color: #000000;
+    color: white;
+    transform: scale(1.2);
+}
+
+/* .button-equalBtn {
+    background-color: orangered;
+} */
+
+.button-operator,
+.button-equalBtn {
+    background-color: rgb(255, 159, 10);
+    color: black;
+}
+
+.button-operator:hover,
+.button-equalBtn:hover {
+    background-color: rgb(255, 211, 146);
+    transform: scale(1.2);
+}
+
+
+.button-btn {
+    background-color: gray;
+    color: black;
+}
+
+.button-btn:hover {
+    background-color: #717377;
+    color: black;
+    transform: scale(1.2);
+}
+
+
+.col-md-6 {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.col-md-6>a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+
+.col-md-6>a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
