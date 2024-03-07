@@ -1,2 +1,3 @@
-<img align="center" alt="Code" height="700px" width="100%"
-        src="https://classroomclipart.com/images/gallery/Animations/Mathematics/school-calculator-with-star-burst-animated-clipart.gif">
+<p align="center">
+  <img src="https://i.pinimg.com/originals/50/da/8c/50da8c44ba216bd8d5c20992bc8ce939.gif" alt="Image" style="width: 350px; display: block; margin: 0 auto;" />
+</p>
